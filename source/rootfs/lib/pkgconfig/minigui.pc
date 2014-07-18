@@ -1,0 +1,12 @@
+prefix=/home/barry/Project/xunjia/source/minigui/libminigui-gpl-3.0.12/../../rootfs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: MiniGUI
+Description: A windowing system for embedded system.
+Version: 3.0.12
+Requires:
+Libs: -L${libdir} -lminigui_ths  -ljpeg -lpng -ldl -lm -lpthread
+Libs.private:
+Cflags: -I${includedir} 

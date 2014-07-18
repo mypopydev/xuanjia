@@ -1,0 +1,214 @@
+cursordemo.o: cursordemo.c \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/common.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/mgconfig.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/syslimits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/limits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/features.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/cdefs.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/wordsize.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/gnu/stubs.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix1_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/local_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/linux/limits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix2_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/alloca.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/pthread.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/endian.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/endian.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/byteswap.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sched.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/types.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/typesizes.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/time.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sched.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/time.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/signal.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sigset.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/pthreadtypes.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/setjmp.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/semaphore.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/types.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/select.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/select.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/sysmacros.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/semaphore.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/minigui.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdio.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/libio.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/_G_config.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/wchar.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/stdio_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sys_errlist.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/gdi.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdlib.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/endianrw.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/window.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/control.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/ctrlhelper.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/static.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/button.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/edit.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/progressbar.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/listbox.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/propsheet.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/combobox.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/newtoolbar.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/menubutton.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/trackbar.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/scrollview.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/scrollbar.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/textedit.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/spinbox.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/monthcal.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/coolbar.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/listview.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/treeview.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/iconview.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/animation.h \
+ cursordemo_res_cn.h \
+ /home/barry/Project/xunjia/source/rootfs/include/minigui/dti.c
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/common.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/mgconfig.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/syslimits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/limits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/features.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/cdefs.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/wordsize.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/gnu/stubs.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix1_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/local_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/linux/limits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix2_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/alloca.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/pthread.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/endian.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/endian.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/byteswap.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sched.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/types.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/typesizes.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/time.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sched.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/time.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/signal.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sigset.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/pthreadtypes.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/setjmp.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/semaphore.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/types.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/select.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/select.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/sysmacros.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/semaphore.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/minigui.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdio.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/libio.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/_G_config.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/wchar.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/stdio_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sys_errlist.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/gdi.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdlib.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/endianrw.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/window.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/control.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/ctrlhelper.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/static.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/button.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/edit.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/progressbar.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/listbox.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/propsheet.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/combobox.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/newtoolbar.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/menubutton.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/trackbar.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/scrollview.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/scrollbar.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/textedit.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/spinbox.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/monthcal.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/coolbar.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/listview.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/treeview.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/iconview.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/ctrl/animation.h:
+
+cursordemo_res_cn.h:
+
+/home/barry/Project/xunjia/source/rootfs/include/minigui/dti.c:

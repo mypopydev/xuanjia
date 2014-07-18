@@ -1,0 +1,376 @@
+lf_fashion.lo: lf_fashion.cpp \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cassert \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/assert.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/features.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/cdefs.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/wordsize.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/gnu/stubs.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstdio \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/c++config.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/os_defines.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/cpu_defines.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstddef \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdio.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/types.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/typesizes.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/libio.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/_G_config.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/wchar.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/stdio_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sys_errlist.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstdlib \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdlib.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/waitflags.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/waitstatus.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/endian.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/endian.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/byteswap.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/xlocale.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/types.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/time.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/select.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/select.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sigset.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/time.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/sysmacros.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/pthreadtypes.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/alloca.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstring \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/string.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/map \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_tree.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_algobase.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/functexcept.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/exception_defines.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/cpp_type_traits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/ext/type_traits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/ext/numeric_traits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_pair.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/move.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/concept_check.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_iterator_base_types.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_iterator_base_funcs.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_iterator.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/debug/debug.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/allocator.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/c++allocator.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/ext/new_allocator.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/new \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/exception \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_function.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/backward/binders.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_map.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/initializer_list \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_multimap.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/common.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/mgconfig.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/syslimits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/limits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix1_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/local_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/linux/limits.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix2_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/xopen_lim.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/pthread.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sched.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sched.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/signal.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/setjmp.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/semaphore.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/semaphore.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/minigui.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/gdi.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/endianrw.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/window.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/control.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/ctrlhelper.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/static.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/button.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/edit.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/progressbar.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/listbox.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/propsheet.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/combobox.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/newtoolbar.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/menubutton.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/trackbar.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/scrollview.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/scrollbar.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/textedit.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/spinbox.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/monthcal.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/coolbar.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/listview.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/treeview.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/iconview.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/animation.h \
+ ../../include/mgplus.h \
+ /home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/fixedmath.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/errno.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/errno.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/linux/errno.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/asm/errno.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/asm-generic/errno.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/asm-generic/errno-base.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/math.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/huge_val.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/huge_valf.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/huge_vall.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/inf.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/nan.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/mathdef.h \
+ /opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/mathcalls.h \
+ ../../include/../mgplusconfig.h
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cassert:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/assert.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/features.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/cdefs.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/wordsize.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/gnu/stubs.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstdio:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/c++config.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/os_defines.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/cpu_defines.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstddef:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stddef.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdio.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/types.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/typesizes.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/libio.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/_G_config.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/wchar.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include/stdarg.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/stdio_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sys_errlist.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstdlib:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/stdlib.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/waitflags.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/waitstatus.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/endian.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/endian.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/byteswap.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/xlocale.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/types.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/time.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/select.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/select.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sigset.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/time.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sys/sysmacros.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/pthreadtypes.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/alloca.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/cstring:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/string.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/map:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_tree.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_algobase.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/functexcept.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/exception_defines.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/cpp_type_traits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/ext/type_traits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/ext/numeric_traits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_pair.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/move.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/concept_check.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_iterator_base_types.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_iterator_base_funcs.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_iterator.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/debug/debug.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/allocator.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/arm-none-linux-gnueabi/bits/c++allocator.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/ext/new_allocator.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/new:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/exception:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_function.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/backward/binders.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_map.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/initializer_list:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/include/c++/4.4.3/bits/stl_multimap.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/common.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/mgconfig.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/limits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/lib/gcc/arm-none-linux-gnueabi/4.4.3/include-fixed/syslimits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/limits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix1_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/local_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/linux/limits.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/posix2_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/xopen_lim.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/pthread.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/sched.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/sched.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/signal.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/setjmp.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/semaphore.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/semaphore.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/minigui.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/gdi.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/endianrw.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/window.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/control.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/ctrlhelper.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/static.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/button.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/edit.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/progressbar.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/listbox.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/propsheet.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/combobox.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/newtoolbar.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/menubutton.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/trackbar.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/scrollview.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/scrollbar.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/textedit.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/spinbox.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/monthcal.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/coolbar.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/listview.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/treeview.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/iconview.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/ctrl/animation.h:
+
+../../include/mgplus.h:
+
+/home/barry/Project/xunjia/source/minigui/libmgplus-1.2.4/../../rootfs/include/minigui/fixedmath.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/errno.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/errno.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/linux/errno.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/asm/errno.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/asm-generic/errno.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/asm-generic/errno-base.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/math.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/huge_val.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/huge_valf.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/huge_vall.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/inf.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/nan.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/mathdef.h:
+
+/opt/FriendlyARM/toolschain/4.4.3/arm-none-linux-gnueabi//sys-root/usr/include/bits/mathcalls.h:
+
+../../include/../mgplusconfig.h:

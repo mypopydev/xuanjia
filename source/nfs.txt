@@ -1,0 +1,2 @@
+mount -t nfs -o noblock 72.163.255.108:/home/barry/Project
+/xunjia/source/rootfs /mnt/minigui/
